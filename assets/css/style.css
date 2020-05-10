@@ -1,3 +1,70 @@
+h1,h2,h3,h4,h5,h6 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar {
+    padding: 0;
+    background-color: white;
+}
+
+#nav_container {
+    background-color: white;
+    padding-right: 3%;
+    padding-left: 3%;
+    border-bottom: solid #cccccc 2px;
+}
+
+h2 {
+    border-bottom: solid #cccccc 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+#nav_about, #nav_contact {
+    border-right: solid #cccccc 2px;
+}
+
+#logo {
+    background-color: #59aaa5;
+    color: white;
+    padding: 20px;
+}
+
 body {
-    background-color: red;
+    background-color: rgb(160, 160, 160);
+}
+
+#main_container {
+    padding: 3%;
+}
+
+article {
+    background-color: white;
+}
+
+#img_bio {
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    /* margin: 20px; */
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+footer {
+    border-top: solid #59aaa5 5px;
+}
+
+#copy {
+    color: white;
+    padding: 30px;
 }
