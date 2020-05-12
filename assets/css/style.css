@@ -2,6 +2,14 @@ h1,h2,h3,h4,h5,h6 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+a {
+    color: #7f7f7f;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .navbar {
     padding: 0;
     background-color: white;
@@ -36,11 +44,19 @@ p {
 
 body {
     background-color: rgb(160, 160, 160);
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
 }
 
 #main_container {
     padding: 3%;
 }
+
+.vertical_align {
+    margin: 0;
+}
+
 
 article {
     background-color: white;
@@ -51,7 +67,7 @@ article {
     margin-bottom: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    /* margin: 20px; */
+    max-height: 400px;
 }
 
 .clearfix::after {

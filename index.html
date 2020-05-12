@@ -1,78 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- Head -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Links -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-    <title>index.html</title>
+
+    <!-- Title -->
+    <title>Adam Allen</title>
 </head>
+
+<!-- Body -->
 <body>
-    
-    <h1>index.html</h1>
+
     <!-- Navbar -->
-    <div class="container-fluid" id="nav_container">
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <!-- Logo -->
-        <a class="navbar-brand" href="index.html" id="logo">
-            <h1>
-                Adam Allen
-            </h1>
-        </a>
-        <!-- Nav Links -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a id="nav_about" class="nav-link" href="index.html">
-                    <h3>
-                        About
-                    </h3>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a id="nav_contact" class="nav-link" href="contact.html">
-                    <h3>
-                        Contact
-                    </h3>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a id="nav_portfolio" class="nav-link" href="portfolio.html">
-                    <h3>
-                        Portfolio
-                    </h3>
-                </a>
-              </li>
-            </ul>
-          </div>
-    </nav>
-    </div>
-    <!-- Main Content -->
-    <div class="container-fluid" id="main_container">
-    <main>
-        <article class="col-md-8 clearfix">
-            <div class="row-mb-2">
-            <h2>
-                About Me
-            </h2>
+    <!-- <div class="container-fluid" id="nav_container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+            <a class="navbar-brand" href="index.html" id="logo">
+                <h1>
+                    Adam Allen
+                </h1>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a id="nav_about" class="nav-link" href="index.html">
+                            <h3>
+                                About
+                            </h3>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="nav_contact" class="nav-link" href="contact.html">
+                            <h3>
+                                Contact
+                            </h3>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="nav_portfolio" class="nav-link" href="portfolio.html">
+                            <h3>
+                                Portfolio
+                            </h3>
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <img src="https://via.placeholder.com/200x200" id="img_bio" class="img-fluid"/>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit excepturi esse tempore, laboriosam harum minus nesciunt eum natus architecto eveniet? Unde recusandae laborum animi ducimus hic, rem alias facere beatae?
-            </p>
-            <br>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae dolorem assumenda consequuntur quisquam laboriosam, quia debitis ad quis earum autem commodi voluptate magnam, magni veritatis ex fuga exercitationem ducimus delectus?
-            </p>
-        </article>
-    </main>
+
+        </nav>
+    </div> -->
+
+    <!-- Navbar -->
+    <div container="container-fluid" id="nav_container">
+        <nav class="navbar navbar-light">
+
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html" id="logo">
+                <h1>
+                    Adam Allen
+                </h1>
+            </a>
+
+            <!-- Nav Links -->
+            <ul class="nav navbar navbar-light justify-content-end">
+                <li class="nav-item">
+                    <a id="nav_about" class="nav-link" href="index.html">
+                        <h3>
+                            About
+                        </h3>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a id="nav_contact" class="nav-link" href="contact.html">
+                        <h3>
+                            Contact
+                        </h3>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a id="nav_portfolio" class="nav-link" href="portfolio.html">
+                        <h3>
+                            Portfolio
+                        </h3>
+                    </a>
+                </li>
+              </ul>
+            </nav>
     </div>
+
+    <!-- Main Content -->
+    <main class="container-fluid" id="main_container">
+        <div class="row vertical_align">
+            <article class="col-md-8 clearfix">
+
+                <!-- Heading -->
+                <div class="row vertical_align">
+                    <h2 class="w-100">
+                        About Me
+                    </h2>
+                </div> 
+
+                <!-- Content -->
+                <img src="assets/images/bio.jpg" id="img_bio" class="img-fluid" alt="Picture of me on a train"/>
+                <p>
+                    Hello, I'm Adam.  I graduated from Bradley University with a BS in Computer Science.  I worked in Information Technology and software development throughout my professional career. The majority of my work experience has involved working with data (Oracle PL/SQL & SSMS). I have also worked with Java, JavaScript, HTML, CSS, Python, and Visual Basic. I enjoy working with technology because it forces me to keep learning new things.
+                </p>
+                <p>
+                    For the past 2.5 years, I have been working at Kellogg School of Management at Northwestern University as a systems analyst. My main roles are supporting the admission CRM software (Slate) and ensuring others in the organization can access the data they need in the underlying database.  I have also been training the rest of my team in SQL.  Prior to working at Kellogg, I worked at Applications Research Corporation for 12 years to help develop and support their CRM software.
+                </p>
+                <p>
+                    On a personal level, I've always lived in Illinois. My hobbies are video gaming and board gaming. My favorite activities are hiking, biking, and eating. My interests include movies, TV, and - most importantly - my wife. 
+                </p>
+
+            </article>
+        </div>
+    </main>
+
     <!-- Footer -->
     <footer class="container-fluid bg-dark fixed-bottom">
         <h6 class="text-center" id="copy">
             &copy; Copyright
         </h6>
     </footer>
+
+    <!-- Bootstrap Scripts-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </body>
 </html>
