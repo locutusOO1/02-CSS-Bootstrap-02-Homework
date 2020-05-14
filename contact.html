@@ -45,32 +45,53 @@
         </nav>
     </div>
     
-        <!-- Main Content -->
-        <div class="container-fluid" id="main_container">
-        <main>
+    <!-- Main Content -->
+    <main class="container-fluid" id="main_container">
+        <div class="row vertical_align">
             <article class="col-md-8 clearfix">
-                <div class="row-mb-2">
-                <h2>
-                    Contact
-                </h2>
-                </div>
-                <img src="https://via.placeholder.com/200x200" id="img_bio" class="img-fluid"/>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit excepturi esse tempore, laboriosam harum minus nesciunt eum natus architecto eveniet? Unde recusandae laborum animi ducimus hic, rem alias facere beatae?
-                </p>
-                <br>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae dolorem assumenda consequuntur quisquam laboriosam, quia debitis ad quis earum autem commodi voluptate magnam, magni veritatis ex fuga exercitationem ducimus delectus?
-                </p>
+
+                <!-- Heading -->
+                <div class="row vertical_align">
+                    <h2 class="w-100">
+                        Contact
+                    </h2>
+                </div> 
+
+                <!-- Form -->
+                <form>
+
+                    <!-- Name -->
+                    <div class="form-group">
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="John Smith">
+                    </div>
+
+                    <!-- Email -->
+                    <div class="form-group">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="example@gmail.com">
+                    </div>
+
+                    <!-- Message -->
+                    <div class="form-group">
+                        <label for="inputMessage">Message</label>
+                        <textarea class="form-control" id="inputMessage" rows="6"></textarea>
+                    </div>
+
+                    <!-- Submit -->
+                    <button type="submit" class="btn btn-primary" id="contact_submit">Submit</button>
+
+                </form>
             </article>
-        </main>
         </div>
-        <!-- Footer -->
-        <footer class="container-fluid bg-dark fixed-bottom">
-            <h6 class="text-center" id="copy">
-                &copy; Copyright
-            </h6>
-        </footer>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-dark fixed-bottom">
+        <h6 class="text-center" id="copy">
+            &copy; Copyright
+        </h6>
+    </footer>
         
 </body>
 </html>
