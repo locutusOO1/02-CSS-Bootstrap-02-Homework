@@ -10,6 +10,10 @@ a {
     padding-bottom: 0;
 }
 
+.social_links {
+    color: #0366dc;
+}
+
 .navbar {
     padding: 0;
     background-color: white;
@@ -83,4 +87,22 @@ footer {
 #copy {
     color: white;
     padding: 30px;
+}
+
+@media (max-width: 680px) {
+    .nav {
+        margin-inline: auto;
+    }
+    #logo {
+        width: 100%;
+        margin-inline: auto;
+    }
+    #nav_container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        text-align: center;
+    }
+
 }
