@@ -83,6 +83,14 @@ article {
     max-height: 400px;
 }
 
+.port_heading {
+    margin-bottom: 3%;
+}
+
+.img_portfolio {
+    margin-bottom: 10%;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
