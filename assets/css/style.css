@@ -85,7 +85,6 @@ article {
 
 .img_portfolio {
     margin-bottom: 10%;
-    padding: -1px;
     border: solid #cccccc 1px;
 }
 
@@ -106,7 +105,7 @@ footer {
 
 #contact_submit {
     background-color: #59aaa5;
-    border-color: #59aaa5;
+    border: 0;
     border-radius: 0;
     margin-bottom: 20px;
 }
@@ -139,11 +138,10 @@ footer {
 /* Media Query */
 @media (max-width: 680px) {
     .nav {
-        margin-inline: auto;
+        margin: auto;
     }
     #logo {
         width: 100%;
-        margin-inline: auto;
     }
     #nav_container {
         padding-left: 0;
@@ -153,7 +151,6 @@ footer {
         text-align: center;
     }
     .img_portfolio {
-        padding: -1px;
         border: solid #cccccc 1px;
     }
 
