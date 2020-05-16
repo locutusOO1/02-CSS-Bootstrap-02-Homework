@@ -9,6 +9,9 @@ h1 {
 h2 {
     color: #59aaa5;
     font-weight: bold;
+    border-bottom: solid #cccccc 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 a {
@@ -33,12 +36,6 @@ a {
     padding-right: 3%;
     padding-left: 3%;
     border-bottom: solid #cccccc 2px;
-}
-
-h2 {
-    border-bottom: solid #cccccc 2px;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 p {
@@ -70,7 +67,6 @@ body {
     margin: 0;
 }
 
-
 article {
     background-color: white;
 }
@@ -89,6 +85,8 @@ article {
 
 .img_portfolio {
     margin-bottom: 10%;
+    padding: -1px;
+    border: solid #cccccc 1px;
 }
 
 .clearfix::after {
@@ -117,6 +115,28 @@ footer {
     border-radius: 0;
 }
 
+.img_wrap {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text_over {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #59aaa5;
+    color: white;
+    width: calc(100% - 30px);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* Media Query */
 @media (max-width: 680px) {
     .nav {
         margin-inline: auto;
@@ -131,6 +151,10 @@ footer {
     }
     h1 {
         text-align: center;
+    }
+    .img_portfolio {
+        padding: -1px;
+        border: solid #cccccc 1px;
     }
 
 }
